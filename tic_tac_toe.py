@@ -46,6 +46,7 @@ def main_game():
         player_turns(player_rn)
         check_winner()
         switch_turn()
+        check_game_finish()
 
     if winner == "X" or winner == "O":
         print(winner + " Won.")
